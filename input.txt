@@ -1,0 +1,21 @@
+Screen
+
+imp io.*, awt.Graphics.*, util.*
+
+var -JPanel displayPane, JTextArea scoreboard, +boolean started c, -int score c
+
+func void animate
+
+func -int getDimension
+
+func -boolean isBigger int numA, int numB
+
+func +int getScore
+
+con int score
+
+
+// imports: "imp " followed by java.(path). Can do multiple per line with comma seperatation.
+// variables: "var " followed by access (-/+),  type, and name. Optional constructor use with "c". Can do multiple per line with commas.
+// methods: "func " followed by access (-/+), return type, name, parameters. Cannot do multiple per line.
+// constructors: "con" followed by parameters. Cannot do multiple per line.
