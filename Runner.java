@@ -39,7 +39,7 @@ public class Runner {
         
         try {
 
-            BufferedReader br = new BufferedReader(new FileReader("./resources/input.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("./input.txt"));
             className = br.readLine();
 
             lc = 1;
